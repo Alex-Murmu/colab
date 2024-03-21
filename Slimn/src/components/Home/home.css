@@ -1,0 +1,38 @@
+
+
+.output {
+    border: 2px solid black;
+    margin: 10px;
+    height: 60vh;
+    border-radius: 20px;
+    overflow: hidden; /* Add this line to hide overflowing content */
+}
+
+/* Add styles for the button */
+/* Original CSS */
+.input button {
+    background-color: black;
+    width: 200px;
+    color: white;
+    width: 400px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+/* Updated CSS with a cool look */
+.input button {
+    background-color: #000000;
+    color: white;
+    width: 400px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input button:hover {
+    background-color: #0056b3;
+}
